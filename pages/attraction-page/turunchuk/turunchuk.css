@@ -1770,3 +1770,42 @@ text-align: center;
     margin-left: auto !important;
   }
 }
+@media (max-width: 767px) {
+     .mushrooms-grid {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 20px !important;
+    padding: 0 15px !important;
+    margin: 30px auto 90px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .mushrooms-grid .nature-card {
+    width: 100% !important;
+    max-width: 300px !important;
+    height: 200px !important;
+    margin: 0 auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .mushrooms-grid .nature-card:nth-child(1),
+  .mushrooms-grid .nature-card:nth-child(2),
+  .mushrooms-grid .nature-card:nth-child(3),
+  .mushrooms-grid .nature-card:nth-child(4) {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+.mushrooms-main-title {
+    font-size: 22px !important;
+  }
+
+  .mushrooms-subtitles {
+    flex-direction: column !important;
+    gap: 15px !important;
+    font-size: 20px !important;
+    padding: 0 20px !important;
+  }
+}
