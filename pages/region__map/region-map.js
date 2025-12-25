@@ -56,12 +56,6 @@
                 coords: [47.376, 29.185],
                 difficulty: 'medium',
                 url: '../routes-page/yagorlyk/yagorlyk.html'
-            },
-            {
-                name: 'Рашков — деревня скал и видов',
-                coords: [47.942, 28.839],
-                difficulty: 'medium',
-                url: '../routes-page/rashkov/rashkov.html'
             }
         ];
 
